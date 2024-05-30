@@ -1,9 +1,9 @@
 {
     "executionRoleArn": "arn:aws:iam::<ACCOUNT_ID>:role/ecsTaskExecutionRole",
-    "family": "<TASK_FAMILY>",
+    "family": "test",
     "containerDefinitions": [
         {
-            "name": "<CONTAINER_NAME>",
+            "name": "mycontainer",
             "image": "<ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/<REPO_NAME>:latest",
             "cpu": 256,
             "memory": 512,
